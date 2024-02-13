@@ -1,9 +1,10 @@
 @import url(styles/header.css);
 @import url(styles/destaque.css);
-@import url(styles/todasnoticias.css);
+@import url(styles/todasNoticias.css);
 @import url(styles/recentes.css);
 @import url(styles/rodape.css);
 @import url(styles/erro.css);
+@import url(styles/paginaNoticia.css);
 
 :root{
     --roxo: #8257E6;
@@ -29,5 +30,10 @@
     font-weight: 400;
     background-color: var(--dark60);
     color: var(--dark10);
+}
+
+body{
+    height: 100vh;
+
 }
 
