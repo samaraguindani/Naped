@@ -1,0 +1,33 @@
+@import url(styles/header.css);
+@import url(styles/destaque.css);
+@import url(styles/todasnoticias.css);
+@import url(styles/recentes.css);
+@import url(styles/rodape.css);
+@import url(styles/erro.css);
+
+:root{
+    --roxo: #8257E6;
+    --dark60: #09090B;
+    --dark50: #13131F;
+    --dark40: #282830;
+    --dark30: #C4C4C4;
+    --dark20: #E0E0E0;
+    --dark10: #FEFBFB;
+    --azul: #2962FF;
+    --verde: #0BB07B;
+    --amarelo: #FFCE52;
+    --vermelho: #F03D3D;
+
+    --font-inter: "Inter", sans-serif;
+    --font-lexend: "Lexend Deca", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 400;
+    background-color: var(--dark60);
+    color: var(--dark10);
+}
+

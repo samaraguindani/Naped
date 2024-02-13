@@ -1,0 +1,107 @@
+.recentes{
+    margin-left: 13em;
+}
+
+.recentes-mais{
+    font-size: 24px;
+    font-family: var(--font-lexend);
+    font-weight: 400;
+}
+
+.recentes__infos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5em;
+    width: 1100px;
+}
+
+.rencentes__noticias{
+    position: relative;
+}
+
+.recentes-tipo{
+    position: absolute;
+    left: 10px;
+    font-size: 12px;
+    font-family: var(--font-lexend);
+    background-color: var(--roxo);
+    border-radius: 3px;
+    padding: 0.2em 1em;
+    margin: 0.5em;
+}
+
+.recentes-texto{
+    position: absolute;
+    background-color: transparent;
+    bottom: 8px;
+    font-size: 13px;
+    font-family: var(--font-lexend);
+    font-weight: 300;
+    margin: 1em;
+    text-align: left;
+    width: 23em;
+}
+
+.recentes-img{
+    width: 300px;
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 600px){    
+    .recentes{
+        width: 370px;
+        margin: 0;
+        padding: 0;        
+    }
+
+    .recentes__titulo{
+        margin: 2em;
+        width: 370px;
+    }
+
+    .recentes-mais{
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .recentes__infos{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin: 2em;
+        gap: 1em;
+        width: 370px;
+    }
+
+    .rencentes__noticias{
+        width: 312px; /* width of container */
+    }
+    
+    .recentes-tipo{
+        position: absolute;
+        left: 10px;
+        font-size: 12px;
+        font-family: var(--font-lexend);
+        background-color: var(--roxo);
+        border-radius: 3px;
+        padding: 0.2em 1em;
+        margin: 0.5em;
+    }
+    
+    .recentes-texto{
+        position: absolute;
+        background-color: transparent;
+        bottom: 8px;
+        font-size: 13px;
+        font-family: var(--font-lexend);
+        font-weight: 300;
+        margin: 1em;
+        text-align: left;
+        width: 23em;
+    }
+    
+    .recentes-img{
+        width: 300px;
+        opacity: 0.8;
+    }
+}

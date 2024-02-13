@@ -1,0 +1,127 @@
+/*https://www.figma.com/file/SSgPQxWn52ar27V5Gxti1C/Desafios---Codel%C3%A2ndia-(Copy)-(Copy)?type=design&node-id=93557-1276&mode=design&t=DIj8sw2AZifTW1rh-0*/
+
+.navbar__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+    margin: 2em;
+}
+
+.logo-naped{
+    color: var(--roxo);
+    font-family: var(--font-lexend);
+    font-size: 24px;
+    margin-left: 6em;
+}
+
+.navbar__links{
+    padding-left: 15%;
+    padding-right: 3%;
+}
+
+.link-lista{
+    text-decoration: none;
+    color: var(--dark30);
+    padding: 0 2em;
+    font-family: var(--font-inter);
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.navbar__hamburger{
+    display: none;
+}
+
+.conta-minha-conta{
+    background-color: transparent;
+    text-decoration: none;
+    font-family: var(--font-lexend);
+    font-size: 14px;
+    border: 2px solid var(--roxo);
+    border-radius: 10px;
+    padding: 0.5em 1em;
+}
+
+.resumo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-left: 13em;
+    box-sizing: content-box;
+    width: 480px;
+}
+
+.resumo-titulo{
+    font-family: var(--font-lexend);
+    font-size: 48px;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.resumo-texto{
+    color: var(--dark30);
+    font-family: var(--font-inter);
+    font-size: 20px;
+    padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 600px){
+    .navbar__links{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2em;
+        width: 370px;
+
+    }
+
+    .navbar__container{
+        display: grid;
+        grid-template-columns: auto auto ;
+        gap: 60%;
+        padding-bottom: 2em;
+        width: 370px;
+        margin: 0;
+    }
+
+    .logo-naped{
+        margin-left: 0em;
+    }
+
+    .navbar__hamburger{
+        display: flex;
+    }
+
+    .navbar__conta{
+        grid-area: 2 / 1 / span 1 / span 2; /*start on row 2 and column 1, and span 2 rows and 3 columns:*/
+    }
+
+    .conta-minha-conta{
+        padding: 0.3em 25%;
+    }
+
+    .resumo{
+        margin: 0 2em;
+        width: 312px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .resumo-titulo{
+        font-size: 24px;
+        padding-bottom: 0.5em;
+    }
+
+    .resumo-texto{
+        font-size: 14px;
+        padding: 0;
+    }
+}
