@@ -72,4 +72,38 @@
     .links-404{
         display: none;
     }
+
+    .container{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+        margin: 2em;
+    }
+
+    .left-titulo{
+        font-size: 32px;
+        width: 370px;
+        padding: 0;
+    }
+
+    .left-texto{
+        font-size: 16px;
+        width: 312px;
+        padding: 1em 0;
+    }
+
+    .left-voltar{
+        font-size: 14px;
+        padding: 0.5em 2em;
+    }
+
+    .right-img{
+        width: 310px;
+        padding-top: 8em ;
+        margin: 0;
+    }
+
+    .right-texto{
+        font-size: 16px;
+    }
 }
