@@ -31,6 +31,14 @@
     padding: 0 2em;
 }
 
+.link-lista:hover{
+    color: var(--dark10);
+    text-decoration: underline;
+    text-decoration-color: var(--roxo);
+    text-decoration-thickness: var(--roxo);
+    text-decoration-thickness: 3px;
+}
+
 .navbar__hamburger{
     display: none;
 }

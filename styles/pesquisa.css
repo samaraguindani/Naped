@@ -1,13 +1,5 @@
-.link-lista:hover{
-    color: var(--dark10);
-    text-decoration: underline;
-    text-decoration-color: var(--roxo);
-    text-decoration-thickness: var(--roxo);
-    text-decoration-thickness: 3px;
-}
-
 .cabecalho__pesquisa{
-    margin-left: 13em;
+    width: 1120px;
 }
 
 .pesquisa-img{
@@ -15,19 +7,21 @@
     width: 1120px; /* width of container */
     height: 300px; /* height of container */
     object-fit: cover;
-    opacity: 0.8;
 }
 
 .pesquisa__info{
     position: absolute;
     bottom: 60%;
     padding-left: 2em;
+    background-color: transparent;
+
 }
 
 .pesquisa-tipo{
     font-size: 48px;
     font-family: var(--font-lexend);
     color: var(--dark10);
+    background-color: transparent;
 
 }
 
@@ -37,13 +31,134 @@
     font-weight: 500;
     font-family: var(--font-inter);
     color: var(--dark30);
+    background-color: transparent;
 
 }
 
 .pesquisa-input{
-  padding: 6px;
-  margin-top: 8px;
-  margin-right: 16px;
-  border: none;
-  font-size: 17px;
+    width: 1080px;
+    padding: 1em;
+    margin: 1em 0;
+    font-size: 20px;
+    border: none;
+    background-color: var(--dark40);
+}
+
+.todas__noticias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.noticia__individual{
+    position: relative;
+
+}
+
+.pesq-img{
+    width: 338px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.pesquisa-texto{
+    position: absolute;
+    width: 300px;
+    font-size: 13px;
+    left: 3em;
+}
+
+.pagination {
+    display: inline-block;
+    margin:  1em;
+    width: 1120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pagination__botao{
+    padding: 1em 1em;
+    text-decoration: none;
+    border: 2px solid var(--dark40);
+    background-color: var(--dark40);
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--font-inter);
+    margin: 0.2em;
+}
+
+.pagination:hover{
+    border-color: var(--roxo);
+    color: var(--roxo);
+}
+
+@media only screen and (max-width: 600px){
+    .cabecalho__pesquisa{
+        width: 312px;
+    }
+    
+    .pesquisa-img{
+        position: relative;
+        width: 312px; /* width of container */
+        height: 300px; /* height of container */
+        object-fit: cover;
+    }
+    
+    .pesquisa__info{
+        position: absolute;
+        top: 50%;
+        left: 5%;
+    }
+    
+    .pesquisa-tipo{
+        font-size: 24px;
+        width: 260px;
+    }
+    
+    .pesquisa-subtipo{
+        width: 260px;
+        font-size: 12px;
+
+    }
+    
+    .pesquisa-input{
+        width: 272px;
+        font-size: 12px;
+    }
+    
+    .todas__noticias{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .noticia__individual{
+        position: relative;
+        padding: 1em 0;
+    }
+    
+    .pesq-img{
+        width: 312px;
+        height: 250px;
+        object-fit: cover;
+    }
+    
+    .pesquisa-texto{
+        position: absolute;
+        width: 300px;
+        font-size: 13px;
+        top: 15em;
+        left: 1em;
+    }
+    
+    .pagination {
+        width: 312px;
+        margin: 2em;
+    }
+    
+    .pagination__botao{
+        font-size: 14px;
+    }
 }

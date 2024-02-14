@@ -13,6 +13,9 @@
 
 .noticia-imagem{
     width: 761px;
+}
+
+img{
     opacity: 0.8;
 }
 
@@ -46,7 +49,6 @@
 
 .secundaria-imagem{
     width: 300px;
-    opacity: 0.8;
 }
 
 .secundaria-tipo{
