@@ -5,6 +5,7 @@
 @import url(styles/rodape.css);
 @import url(styles/erro.css);
 @import url(styles/paginaNoticia.css);
+@import url(styles/pesquisa.css);
 
 :root{
     --roxo: #8257E6;
