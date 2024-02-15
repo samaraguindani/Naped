@@ -80,9 +80,14 @@
         width: 312px;
     }
 
+    .container__esquerdo{
+        width: 312px;
+        margin: 1em;
+    }
+
     .left-titulo{
         font-size: 32px;
-        width: 370px;
+        width: 312px;
         padding: 0;
     }
 
@@ -95,6 +100,11 @@
     .left-voltar{
         font-size: 14px;
         padding: 0.5em 2em;
+    }
+
+    .container__direito{
+        width: 312px;
+        margin: 1em;
     }
 
     .right-img{
