@@ -1,11 +1,11 @@
 @import url(styles/header.css);
 @import url(styles/destaque.css);
-@import url(styles/todasNoticias.css);
 @import url(styles/recentes.css);
 @import url(styles/rodape.css);
 @import url(styles/erro.css);
 @import url(styles/paginaNoticia.css);
 @import url(styles/pesquisa.css);
+@import url(styles/todasAsNoticias.css);
 
 :root{
     --roxo: #8257E6;
